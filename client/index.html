@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Citizen Complaint Transparency (Prototype)</title>
+</head>
+<body>
+  <h2>Submit Complaint</h2>
+  <form id="f">
+    <input id="name" placeholder="Your Name" required /><br/>
+    <input id="email" type="email" placeholder="Email" required /><br/>
+    <textarea id="message" placeholder="Enter your complaint" required></textarea><br/>
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>All Complaints (Public)</h2>
+  <ul id="list"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
